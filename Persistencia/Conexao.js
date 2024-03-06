@@ -9,7 +9,7 @@ export default async function conectar() {
             host: 'localhost',
             user: 'root',
             password: '',
-            port: 3307,
+            port: 3306,
             database: 'backend',
             waitForConnections: true,
             connectionLimit: 10,
